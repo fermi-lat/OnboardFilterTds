@@ -1,0 +1,33 @@
+------------------------------------------------------------
+User: heather  Thu Aug 24 15:00:00 PDT 2006
+OnboardFilterTds
+
+Log Message:
+initial import of new package to store OBF TDS classes
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v0
+		
+N OnboardFilterTds/.cvsignore
+N OnboardFilterTds/cmt/.cvsignore
+N OnboardFilterTds/cmt/requirements
+I OnboardFilterTds/cmt/Makefile
+I OnboardFilterTds/cmt/cleanup.csh
+I OnboardFilterTds/cmt/setup.csh
+I OnboardFilterTds/cmt/setup.sh
+N OnboardFilterTds/cmt/rh9_gcc32.make
+I OnboardFilterTds/cmt/cleanup.sh
+N OnboardFilterTds/doc/release.notes
+N OnboardFilterTds/OnboardFilterTds/FilterStatus.h
+N OnboardFilterTds/OnboardFilterTds/LogInfoDef.h
+N OnboardFilterTds/OnboardFilterTds/FilterAlgTds.h
+N OnboardFilterTds/src/mainpage.h
+N OnboardFilterTds/src/FilterStatus.cxx
+N OnboardFilterTds/src/FilterAlgTds.cxx
+N OnboardFilterTds/src/test/testmain.cxx
+
+No conflicts created by this import
+
+    *
