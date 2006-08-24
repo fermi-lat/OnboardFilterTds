@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Aug 24 16:07:12 PDT 2006
+OnboardFilterTds/OnboardFilterTds
+
+Modified Files:
+	FilterStatus.h 
+Log Message:
+add best track members to FilterStatus
+    *
+------------------------------------------------------------
 User: heather  Thu Aug 24 15:00:00 PDT 2006
 OnboardFilterTds
 
