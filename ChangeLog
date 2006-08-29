@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Aug 29 10:52:58 PDT 2006
+OnboardFilterTds/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+really tag the whole package
+    *
+------------------------------------------------------------
 TAG
 Tag name: v0r1p1, operation: add
 Package: OnboardFilterTds
