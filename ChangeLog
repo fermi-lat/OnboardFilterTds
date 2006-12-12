@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: usher  Tue Dec 12 14:13:33 PST 2006
+OnboardFilterTds/OnboardFilterTds
+
+Modified Files:
+	FilterStatus.h 
+Added Files:
+	ObfFilterStatus.h 
+Log Message:
+1) Modifications to facilitate the inclusion of the latest round of FSW code, 2) create a new TDS class to contain the results from multiple filters.
+    *
+------------------------------------------------------------
 TAG
 Tag name: v0r1p2, operation: add
 Package: OnboardFilterTds
