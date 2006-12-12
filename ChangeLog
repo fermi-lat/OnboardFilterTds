@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: usher  Tue Dec 12 14:13:33 PST 2006
+OnboardFilterTds/src
+
+Modified Files:
+	FilterAlgTds.cxx FilterStatus.cxx 
+Added Files:
+	ObfFilterStatus.cxx 
+Log Message:
+1) Modifications to facilitate the inclusion of the latest round of FSW code, 2) create a new TDS class to contain the results from multiple filters.
+    *
+------------------------------------------------------------
+User: usher  Tue Dec 12 14:13:33 PST 2006
 OnboardFilterTds/OnboardFilterTds
 
 Modified Files:
