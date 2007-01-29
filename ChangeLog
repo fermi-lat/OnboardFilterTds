@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: usher  Mon Jan 29 10:04:20 PST 2007
+OnboardFilterTds/OnboardFilterTds
+
+Modified Files:
+	ObfFilterStatus.h 
+Log Message:
+Add some bit information to ObfFilterStatus.h file
+    *
+------------------------------------------------------------
+User: usher  Mon Jan 29 10:04:20 PST 2007
 OnboardFilterTds
 
 Modified Files:
