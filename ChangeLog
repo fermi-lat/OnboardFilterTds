@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Mon Jan 29 10:04:20 PST 2007
+OnboardFilterTds
+
+Modified Files:
+	.cvsignore 
+Log Message:
+Add some bit information to ObfFilterStatus.h file
+    *
+------------------------------------------------------------
 TAG
 Tag name: v0r2p0, operation: add
 Package: OnboardFilterTds
