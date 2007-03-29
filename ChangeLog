@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Thu Mar 29 12:45:26 PDT 2007
+OnboardFilterTds/OnboardFilterTds
+
+Modified Files:
+	ObfFilterStatus.h 
+Log Message:
+Add spigot for the Diagnostic Filter
+    *
+------------------------------------------------------------
 TAG
 Tag name: v0r2p1, operation: add
 Package: OnboardFilterTds
