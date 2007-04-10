@@ -1,7 +1,7 @@
 /** @file ObfStatus.h
 * @author Tracy Usher
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/OnboardFilterTds/ObfFilterStatus.h,v 1.2 2007/01/29 18:04:20 usher Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/OnboardFilterTds/ObfFilterStatus.h,v 1.3 2007/03/29 19:45:25 usher Exp $
 
 */
 #ifndef ObfStatus_H
@@ -69,7 +69,7 @@ public:
     // @param MipFilter   - key for Mip Filter results
     enum FilterKeys {
         GammaFilter = 0,
-        CNOFilter   = 1,
+        HFCFilter   = 1,
         MipFilter   = 2,
         DFCFilter   = 3
     };
@@ -119,11 +119,11 @@ private:
     unsigned int m_status;
 };
 
-class ObfCNOStatus : virtual public IObfStatus
+class ObfHFCStatus : virtual public IObfStatus
 {
 public:
-    ObfCNOStatus(unsigned int status) : m_status(status) {}
-    virtual ~ObfCNOStatus() {}
+    ObfHFCStatus(unsigned int status) : m_status(status) {}
+    virtual ~ObfHFCStatus() {}
 
     unsigned int getStatusHi() const {return m_status >> 16;}
     unsigned int getStatusLo() const {return m_status & 0xFFFF;}
@@ -135,7 +135,7 @@ public:
     
     std::ostream& fillStream(std::ostream& s) const
     {
-        s << "CNO Filter status:" << std::hex << m_status << std::dec << std::endl;
+        s << "HFC Filter status:" << std::hex << m_status << std::dec << std::endl;
         return s;
     }
 private:
