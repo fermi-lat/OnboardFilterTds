@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Tue Apr 10 08:36:53 PDT 2007
+OnboardFilterTds/OnboardFilterTds
+
+Modified Files:
+	ObfFilterStatus.h 
+Log Message:
+Change from "CNO" to "HFC" consistently through output stuff
+    *
+------------------------------------------------------------
 User: usher  Thu Mar 29 12:45:26 PDT 2007
 OnboardFilterTds/OnboardFilterTds
 
