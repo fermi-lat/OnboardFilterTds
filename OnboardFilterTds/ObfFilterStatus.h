@@ -1,7 +1,7 @@
 /** @file ObfStatus.h
 * @author Tracy Usher
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/OnboardFilterTds/ObfFilterStatus.h,v 1.3 2007/03/29 19:45:25 usher Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/OnboardFilterTds/ObfFilterStatus.h,v 1.4 2007/04/10 15:36:53 usher Exp $
 
 */
 #ifndef ObfStatus_H
@@ -45,6 +45,8 @@ public:
     virtual unsigned int getStatusHi()                const = 0;
     virtual unsigned int getStatusLo()                const = 0;
     virtual unsigned int getStatus32()                const = 0;
+    virtual unsigned int getVetoMask()                const = 0;
+    virtual unsigned int getVetoBit()                 const = 0;
 
     // Output for to diagnostic stream 
     virtual std::ostream& fillStream(std::ostream& s) const = 0;
