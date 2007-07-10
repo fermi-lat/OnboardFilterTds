@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Tue Jul 10 10:20:07 PDT 2007
+OnboardFilterTds/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+add getVetoMask and getVetoBit to IObfStatus
+    *
+------------------------------------------------------------
+User: heather  Tue Jul 10 10:20:07 PDT 2007
 OnboardFilterTds/cmt
 
 Modified Files:
