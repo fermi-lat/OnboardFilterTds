@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jul 10 10:20:07 PDT 2007
+OnboardFilterTds/OnboardFilterTds
+
+Modified Files:
+	ObfFilterStatus.h 
+Log Message:
+add getVetoMask and getVetoBit to IObfStatus
+    *
+------------------------------------------------------------
 TAG
 Tag name: v0r3, operation: add
 Package: OnboardFilterTds
