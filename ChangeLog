@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Mon Sep 10 11:51:53 PDT 2007
+OnboardFilterTds/OnboardFilterTds
+
+Modified Files:
+	FilterStatus.h 
+Log Message:
+Fix mamory leak in FilterStatus.h
+    *
+------------------------------------------------------------
 TAG
 Tag name: v0r4p1, operation: add
 Package: OnboardFilterTds
