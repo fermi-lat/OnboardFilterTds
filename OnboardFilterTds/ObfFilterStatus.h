@@ -1,7 +1,7 @@
 /** @file ObfStatus.h
 * @author Tracy Usher
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/OnboardFilterTds/ObfFilterStatus.h,v 1.4 2007/04/10 15:36:53 usher Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/OnboardFilterTds/ObfFilterStatus.h,v 1.5 2007/07/10 17:20:07 heather Exp $
 
 */
 #ifndef ObfStatus_H
@@ -86,7 +86,7 @@ public:
     void addFilterStatus(FilterKeys key, IObfStatus* status);
 
     // Return results method
-    const IObfStatus* getFilterStatus(FilterKeys key);
+    const IObfStatus* getFilterStatus(FilterKeys key) const;
         
     /// writes out the information of the cluster if msglevel is set to debug
     std::ostream& fillStream( std::ostream& s ) const;
