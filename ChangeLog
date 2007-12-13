@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: usher  Thu Dec 13 13:40:25 PST 2007
+OnboardFilterTds/src
+
+Modified Files:
+	FilterStatus.cxx 
+Log Message:
+Fix the getCalEnergy method so it will preserve the sign bit for negative energies
+    *
+------------------------------------------------------------
+User: usher  Thu Dec 13 13:40:25 PST 2007
 OnboardFilterTds/OnboardFilterTds
 
 Modified Files:
