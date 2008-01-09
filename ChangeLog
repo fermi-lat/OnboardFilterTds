@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Wed Jan  9 13:04:20 PST 2008
+OnboardFilterTds/OnboardFilterTds
+
+Modified Files:
+	FilterStatus.h 
+Log Message:
+Add more data members to contain the "best" track parameters determined from the FSW code taken from the GRB filter
+    *
+------------------------------------------------------------
 TAG
 Tag name: v0r5, operation: add
 Package: OnboardFilterTds
