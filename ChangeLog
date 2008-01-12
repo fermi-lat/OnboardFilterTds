@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Fri Jan 11 17:08:55 PST 2008
+OnboardFilterTds/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+last tag didn't take? Prepare to tag v0r5p3
+    *
+------------------------------------------------------------
 TAG
 Tag name: v0r5p2, operation: add
 Package: OnboardFilterTds
