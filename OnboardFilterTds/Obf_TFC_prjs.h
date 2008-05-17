@@ -6,11 +6,12 @@
   * 
   * File defining output to TDS of OnboardFilter reconstruction objects
   *
-  * $Header: /nfs/slac/g/glast/ground/cvs/digiRootData/digiRootData/FilterStatus.h,v 1.10 2007/09/19 18:13:12 heather Exp $
+  * $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/OnboardFilterTds/Obf_TFC_prjs.h,v 1.1 2008/02/07 19:48:02 usher Exp $
 **/
 
 // Include the FSW header file defining the tracking structures
-#include "EFC/TFC_prjDef.h"
+//#include "EFC/TFC_prjDef.h"
+#include "OnboardFilterTds/TFC_prjDef.h"
 
 namespace OnboardFilterTds {
 
