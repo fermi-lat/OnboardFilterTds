@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Mon Jun 16 15:12:50 PDT 2008
+OnboardFilterTds/OnboardFilterTds
+
+Modified Files:
+	ObfFilterStatus.h 
+Log Message:
+Modify ObfFilterStatus to better refect data, including methods for Stage and Energy and placeholder for prescaler info
+    *
+------------------------------------------------------------
 TAG
 Tag name: OnboardFilterTds-00-07-01, operation: add
 Package: OnboardFilterTds
