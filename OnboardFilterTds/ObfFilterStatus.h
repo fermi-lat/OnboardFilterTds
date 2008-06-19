@@ -1,7 +1,7 @@
 /** @file ObfStatus.h
 * @author Tracy Usher
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/OnboardFilterTds/ObfFilterStatus.h,v 1.10 2008/06/13 03:25:45 usher Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/OnboardFilterTds/ObfFilterStatus.h,v 1.11 2008/06/16 22:12:50 usher Exp $
 
 */
 #ifndef ObfStatus_H
@@ -127,7 +127,8 @@ public:
     unsigned char getFiltersb()      const {return m_sb;}
     unsigned int  getPrescalerWord() const {return m_prescaler;}
 
-    unsigned int  getEnergy()        const {return m_energy & GFC_STAGE_M_ENERGY;}
+    unsigned int  getEnergyInLeus()  const;
+    float         getEnergy()        const; 
     unsigned int  getStage()         const {return (m_energy & GFC_STAGE_M_STAGE) >> GFC_STAGE_S_ENERGY;}
     
     std::ostream& fillStream(std::ostream& s) const
