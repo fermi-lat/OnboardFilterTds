@@ -1,22 +1,4 @@
 ------------------------------------------------------------
-User: usher  Thu Jun 19 11:24:49 PDT 2008
-OnboardFilterTds/src
-
-Modified Files:
-	ObfFilterStatus.cxx 
-Log Message:
-Remember to drag sign bit up when returning the energy
-    *
-------------------------------------------------------------
-User: usher  Thu Jun 19 11:24:49 PDT 2008
-OnboardFilterTds/OnboardFilterTds
-
-Modified Files:
-	ObfFilterStatus.h 
-Log Message:
-Remember to drag sign bit up when returning the energy
-    *
-------------------------------------------------------------
 TAG
 Tag name: OnboardFilterTds-00-08-00, operation: add
 Package: OnboardFilterTds
