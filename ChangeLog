@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: usher  Thu Jun 19 11:24:49 PDT 2008
+OnboardFilterTds/src
+
+Modified Files:
+	ObfFilterStatus.cxx 
+Log Message:
+Remember to drag sign bit up when returning the energy
+    *
+------------------------------------------------------------
+User: usher  Thu Jun 19 11:24:49 PDT 2008
 OnboardFilterTds/OnboardFilterTds
 
 Modified Files:
