@@ -1,7 +1,7 @@
 /** @file ObfStatus.h
 * @author Tracy Usher
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/OnboardFilterTds/ObfFilterStatus.h,v 1.11 2008/06/16 22:12:50 usher Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/OnboardFilterTds/ObfFilterStatus.h,v 1.12 2008/06/19 18:24:49 usher Exp $
 
 */
 #ifndef ObfStatus_H
@@ -50,6 +50,7 @@ public:
 
     // Retrieving the status word is common to all filters
     virtual unsigned int  getStatusWord()             const = 0;
+    virtual int           getState()                  const = 0;
     virtual unsigned int  getVetoMask()               const = 0;
     virtual unsigned int  getVetoBit()                const = 0;
 
@@ -118,7 +119,8 @@ public:
     virtual ~ObfGammaStatus() {}
 
     // If msb is set below then event is to be vetoed
-    unsigned int  getStatusWord() const {return m_status;}
+    unsigned int  getStatusWord()    const {return m_status;}
+    int           getState()         const;
 
     unsigned int  getVetoMask()      const {return GFC_STATUS_M_VETOES;}
     unsigned int  getVetoBit()       const {return GFC_STATUS_M_VETOED;}
@@ -128,7 +130,8 @@ public:
     unsigned int  getPrescalerWord() const {return m_prescaler;}
 
     unsigned int  getEnergyInLeus()  const;
-    float         getEnergy()        const; 
+    float         getEnergy()        const;
+    unsigned int  getStageEnergy()   const {return m_energy;}
     unsigned int  getStage()         const {return (m_energy & GFC_STAGE_M_STAGE) >> GFC_STAGE_S_ENERGY;}
     
     std::ostream& fillStream(std::ostream& s) const
@@ -153,6 +156,7 @@ public:
 
      // If msb of below is set then event is to be vetoed
     unsigned int  getStatusWord()    const {return m_status;}
+    int           getState()         const;
 
     unsigned int  getVetoMask()      const {return HFC_STATUS_M_VETO_DEF;}
     unsigned int  getVetoBit()       const {return HFC_STATUS_M_VETOED;}
@@ -181,6 +185,7 @@ public:
     virtual ~ObfMipStatus() {}
 
     unsigned int  getStatusWord()    const {return m_status;}
+    int           getState()         const;
 
     unsigned int  getVetoMask()      const {return MFC_STATUS_M_VETO_DEF;}
     unsigned int  getVetoBit()       const {return MFC_STATUS_M_VETOED;}
@@ -210,6 +215,7 @@ public:
 
     // If msb of below is set then event is to be vetoed
     unsigned int  getStatusWord()    const {return m_status;}
+    int           getState()         const;
 
     unsigned int  getVetoMask()      const {return DFC_STATUS_M_VETO_DEF;}
     unsigned int  getVetoBit()       const {return DFC_STATUS_M_VETOED;}

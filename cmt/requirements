@@ -1,6 +1,6 @@
 package OnboardFilterTds
 version v0r8p1
-# $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/cmt/requirements,v 1.21 2008/06/16 22:15:37 usher Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/cmt/requirements,v 1.22 2008/06/19 18:26:57 usher Exp $
 
 author Richard Hughes <HUGHES@mps.ohio-state.edu>
 
@@ -9,6 +9,7 @@ branches OnboardFilterTds cmt doc src
 use obf v* IExternal 
 use GaudiInterface v* IExternal
 use Event v*
+use enums v*
 use GlastPolicy v*
 
 apply_pattern shared_library
