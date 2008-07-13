@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: usher  Sun Jul 13 10:25:53 PDT 2008
-OnboardFilterTds/src
-
-Modified Files:
-	ObfFilterStatus.cxx 
-Log Message:
-Add new methods to the various filter output objects to be able to return the "state" as an enum with states defined in enums/Lsf.h
-    *
-------------------------------------------------------------
-User: usher  Sun Jul 13 10:25:53 PDT 2008
-OnboardFilterTds/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-Add new methods to the various filter output objects to be able to return the "state" as an enum with states defined in enums/Lsf.h
-    *
-------------------------------------------------------------
-User: usher  Sun Jul 13 10:25:53 PDT 2008
-OnboardFilterTds/OnboardFilterTds
-
-Modified Files:
-	ObfFilterStatus.h 
-Log Message:
-Add new methods to the various filter output objects to be able to return the "state" as an enum with states defined in enums/Lsf.h
-    *
-------------------------------------------------------------
 TAG
 Tag name: OnboardFilterTds-00-08-01, operation: add
 Package: OnboardFilterTds
