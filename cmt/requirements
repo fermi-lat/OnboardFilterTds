@@ -1,8 +1,8 @@
 package OnboardFilterTds
-version v0r8p1
-# $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/cmt/requirements,v 1.22 2008/06/19 18:26:57 usher Exp $
+version v0r8p2
+# $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/cmt/requirements,v 1.23 2008/07/13 17:25:53 usher Exp $
 
-author Richard Hughes <HUGHES@mps.ohio-state.edu>
+author Tracy Usher <usher@slac.stanford.edu>
 
 branches OnboardFilterTds cmt doc src
 
