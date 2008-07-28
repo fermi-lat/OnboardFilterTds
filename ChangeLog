@@ -1,22 +1,4 @@
 ------------------------------------------------------------
-User: usher  Mon Jul 21 14:47:36 PDT 2008
-OnboardFilterTds/src
-
-Modified Files:
-	FilterStatus.cxx ObfFilterStatus.cxx 
-Log Message:
-First round of updates for B1-1-0
-    *
-------------------------------------------------------------
-User: usher  Mon Jul 21 14:47:36 PDT 2008
-OnboardFilterTds/OnboardFilterTds
-
-Modified Files:
-	FilterStatus.h ObfFilterStatus.h 
-Log Message:
-First round of updates for B1-1-0
-    *
-------------------------------------------------------------
 TAG
 Tag name: OnboardFilterTds-00-08-02, operation: add
 Package: OnboardFilterTds
