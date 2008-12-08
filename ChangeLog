@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Mon Dec  8 13:40:06 PST 2008
+GlastRelease-scons/OnboardFilterTds
+
+Modified Files:
+	SConscript 
+Log Message:
+Check in SConscript for OnboardFilterTds v0r10 (for branch-tag, GlastReleasev15r49) 
+    *
+------------------------------------------------------------
 TAG
 Tag name: OnboardFilterTds-00-10-00, operation: add
 Package: OnboardFilterTds
