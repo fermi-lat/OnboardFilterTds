@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Mon Dec  8 16:08:33 PST 2008
+GlastRelease-scons/OnboardFilterTds
+
+Modified Files:
+	OnboardFilterTdsLib.py 
+Log Message:
+Check in OnboardFilterTdsLib.py for OnboardFilterTds v0r10 (branch-tag, GlastReleasev15r49).
+    *
+------------------------------------------------------------
 TAG
 Tag name: OnboardFilterTds-00-10-00, operation: mov
 Package: OnboardFilterTds
