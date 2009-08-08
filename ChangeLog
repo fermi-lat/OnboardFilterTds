@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Fri Aug  7 18:03:59 PDT 2009
+GlastRelease-scons/OnboardFilterTds
+
+Modified Files:
+	.cvsignore SConscript 
+Log Message:
+SConscript:  use registerTargets
+.cvsignore:  add SCons build products
+
+    *
+------------------------------------------------------------
 User: heather  Wed Jul  1 09:17:56 PDT 2009
 OnboardFilterTds/doc
 
