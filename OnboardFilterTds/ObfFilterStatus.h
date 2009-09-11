@@ -1,7 +1,7 @@
 /** @file ObfStatus.h
 * @author Tracy Usher
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/OnboardFilterTds/ObfFilterStatus.h,v 1.14 2008/07/21 21:47:36 usher Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/OnboardFilterTds/ObfFilterStatus.h,v 1.15 2008/09/22 16:31:06 usher Exp $
 
 */
 #ifndef ObfStatus_H
@@ -140,8 +140,8 @@ public:
         return s;
     }
 private:
-    unsigned int  m_status;
     unsigned char m_id;
+    unsigned int  m_status;
     unsigned char m_sb;
     unsigned int  m_prescaler;
     unsigned int  m_energy;
@@ -200,8 +200,8 @@ public:
         return s;
     }
 private:
-    unsigned int  m_status;
     unsigned char m_id;
+    unsigned int  m_status;
     unsigned char m_sb;
     unsigned int  m_prescaler;
 };
@@ -230,8 +230,8 @@ public:
         return s;
     }
 private:
-    unsigned int  m_status;
     unsigned char m_id;
+    unsigned int  m_status;
     unsigned char m_sb;
     unsigned int  m_prescaler;
 };
