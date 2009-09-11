@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Fri Sep 11 13:59:20 PDT 2009
+OnboardFilterTds/OnboardFilterTds
+
+Modified Files:
+	ObfFilterStatus.h 
+Log Message:
+Fix order ofdata members to thwart warnings in linux builds
+    *
+------------------------------------------------------------
 User: jrb  Fri Aug  7 18:03:59 PDT 2009
 GlastRelease-scons/OnboardFilterTds
 
