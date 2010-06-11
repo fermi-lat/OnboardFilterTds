@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/SConscript,v 1.5 2009/08/08 01:03:59 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/OnboardFilterTds/SConscript,v 1.6 2009/09/12 16:17:33 usher Exp $
 # Authors: Tracy Usher <usher@SLAC.Stanford.edu>
 # Version: OnboardFilterTds-00-10-01
 Import('baseEnv')
@@ -8,7 +8,7 @@ Import('packages')
 progEnv = baseEnv.Clone()
 libEnv = baseEnv.Clone()
 
-libEnv.Tool('OnboardFilterTdsLib', depsOnly = 1)
+libEnv.Tool('addLinkDeps', package='OnboardFilterTds', toBuild='shared')
 
 libEnv.AppendUnique(CPPDEFINES = ['GLEAM'])
 libEnv.AppendUnique(CPPDEFINES = ['__i386'])
