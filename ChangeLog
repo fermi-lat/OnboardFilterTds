@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Thu Jun 10 17:39:20 PDT 2010
+GlastRelease-scons/OnboardFilterTds
+
+Modified Files:
+	SConscript 
+Log Message:
+updates for SCons build
+    *
+------------------------------------------------------------
 TAG
 Tag name: OnboardFilterTds-00-10-01, operation: add
 Package: OnboardFilterTds
