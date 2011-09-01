@@ -2,6 +2,20 @@
 TAG
 Tag name: GlastRelease-19-03-06, operation: add
 Package: OnboardFilterTds
+User: heather  Thu Sep  1 11:44:47 2011
+Files:
+  OnboardFilterTds/src/Obf_TFC_prjs.cxx  1.1
+  OnboardFilterTds/src/FilterStatus.cxx  1.4
+  OnboardFilterTds/src/mainpage.h  1.1.1.1
+  OnboardFilterTds/src/FilterAlgTds.cxx  1.2
+  OnboardFilterTds/src/ObfFilterStatus.cxx  1.6
+  OnboardFilterTds/src/test/testmain.cxx  1.1.1.1
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-19-03-06, operation: add
+Package: OnboardFilterTds
 User: heather  Thu Sep  1 11:44:41 2011
 Files:
   OnboardFilterTds/OnboardFilterTds/ObfFilterStatus.h  1.16
