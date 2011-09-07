@@ -2,6 +2,15 @@
 TAG
 Tag name: GlastRelease-17-35-24-gr04, operation: add
 Package: OnboardFilterTds
+User: heather  Wed Sep  7 14:38:50 2011
+Files:
+  OnboardFilterTds/OnboardFilterTds/FSWHeaders/TFC_prjDef.h  1.1
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr04, operation: add
+Package: OnboardFilterTds
 User: heather  Wed Sep  7 14:38:45 2011
 Files:
   OnboardFilterTds/.cvsignore  1.3
