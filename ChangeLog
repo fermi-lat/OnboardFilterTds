@@ -1,5 +1,34 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-gr05, operation: add
+Package: OnboardFilterTds
+User: heather  Thu Sep 22 10:15:52 2011
+Files:
+  OnboardFilterTds/.cvsignore  1.3
+  OnboardFilterTds/OnboardFilterTdsLib.py  1.3
+  OnboardFilterTds/ChangeLog  1.145
+  OnboardFilterTds/SConscript  1.8
+  OnboardFilterTds/OnboardFilterTds/ObfFilterStatus.h  1.16
+  OnboardFilterTds/OnboardFilterTds/ObfFilterTrack.h  1.1
+  OnboardFilterTds/OnboardFilterTds/Obf_TFC_prjs.h  1.3
+  OnboardFilterTds/OnboardFilterTds/FilterStatus.h  1.12
+  OnboardFilterTds/OnboardFilterTds/FilterAlgTds.h  1.1.1.1
+  OnboardFilterTds/OnboardFilterTds/LogInfoDef.h  1.1.1.1
+  OnboardFilterTds/OnboardFilterTds/FSWHeaders/TFC_prjDef.h  1.1
+  OnboardFilterTds/cmt/.cvsignore  1.1.1.1
+  OnboardFilterTds/cmt/rh9_gcc32.make  1.1.1.1
+  OnboardFilterTds/cmt/requirements  1.28
+  OnboardFilterTds/doc/release.notes  1.28
+  OnboardFilterTds/src/Obf_TFC_prjs.cxx  1.1
+  OnboardFilterTds/src/FilterStatus.cxx  1.4
+  OnboardFilterTds/src/mainpage.h  1.1.1.1
+  OnboardFilterTds/src/FilterAlgTds.cxx  1.2
+  OnboardFilterTds/src/ObfFilterStatus.cxx  1.6
+  OnboardFilterTds/src/test/testmain.cxx  1.1.1.1
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-17-35-24-gr04, operation: add
 Package: OnboardFilterTds
 User: heather  Wed Sep  7 14:38:56 2011
