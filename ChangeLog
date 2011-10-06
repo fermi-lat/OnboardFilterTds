@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jrb  Thu Oct  6 11:51:54 PDT 2011
+GlastRelease-scons/OnboardFilterTds/src
+
+Modified Files:
+	FilterStatus.cxx 
+Log Message:
+changes for SCons use of obf B1-1-3 and B3-0-0
+    *
+------------------------------------------------------------
+User: jrb  Thu Oct  6 11:51:54 PDT 2011
 GlastRelease-scons/OnboardFilterTds/OnboardFilterTds
 
 Modified Files:
