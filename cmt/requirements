@@ -1,6 +1,6 @@
 package OnboardFilterTds
-version v0r10p2
-# $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/cmt/requirements,v 1.27 2009/09/12 16:17:33 usher Exp $
+version v0r11p0
+# $Header: /nfs/slac/g/glast/ground/cvs/OnboardFilterTds/cmt/requirements,v 1.28 2010/06/12 22:39:16 jrb Exp $
 
 author Tracy Usher <usher@slac.stanford.edu>
 
