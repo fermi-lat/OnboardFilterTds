@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jrb  Thu Apr 26 14:48:45 PDT 2012
+GlastRelease-scons/OnboardFilterTds/src
+
+Modified Files:
+	Obf_TFC_prjs.cxx 
+Log Message:
+for slightly upgraded obf B3-0-0 (-gl1) 
+    *
+------------------------------------------------------------
+User: jrb  Thu Apr 26 14:48:45 PDT 2012
 GlastRelease-scons/OnboardFilterTds
 
 Modified Files:
