@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Mon Apr 30 11:44:45 PDT 2012
+GlastRelease-scons/OnboardFilterTds/src
+
+Modified Files:
+	Obf_TFC_prjs.cxx 
+Log Message:
+fix typo in macro name
+    *
+------------------------------------------------------------
 TAG
 Tag name: OnboardFilterTds-00-11-02, operation: add
 Package: OnboardFilterTds
