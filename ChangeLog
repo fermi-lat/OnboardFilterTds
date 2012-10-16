@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Tue Oct 16 15:54:50 PDT 2012
+OnboardFilterTds
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
 User: jrb  Tue Oct 16 15:23:25 PDT 2012
 GlastRelease-scons/OnboardFilterTds/OnboardFilterTds
 
