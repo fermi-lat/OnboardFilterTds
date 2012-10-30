@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Mon Oct 29 22:12:10 PDT 2012
+GlastRelease-scons/OnboardFilterTds/OnboardFilterTds
+
+Modified Files:
+	FilterStatus.h Obf_TFC_prjs.h 
+Log Message:
+updates for obf B3-1-1
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-06-04, operation: add
 Package: OnboardFilterTds
