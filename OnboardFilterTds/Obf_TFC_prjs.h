@@ -6,7 +6,7 @@
   * 
   * File defining output to TDS of OnboardFilter reconstruction objects
   *
-  * $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/OnboardFilterTds/OnboardFilterTds/Obf_TFC_prjs.h,v 1.5 2012/10/16 22:23:25 jrb Exp $
+  * $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/OnboardFilterTds/OnboardFilterTds/Obf_TFC_prjs.h,v 1.6 2012/10/30 05:12:10 jrb Exp $
 **/
 
 // Include the FSW header file defining the tracking structures
@@ -14,7 +14,7 @@
 #ifdef OBF_B1_1_3
 #include "OnboardFilterTds/FSWHeaders/TFC_prjDef.h"
 #endif
-#if defined(OBF_B3_0_0) || defined(OBF_B3_1_0) || defined(OBF_B3_1_1)
+#if defined(OBF_B3_0_0) || defined(OBF_B3_1_0) || defined(OBF_B3_1_1) || defined(OBF_B3_1_3)
 #include "EFC/TFC_prjDef.h"
 #endif
 #else
