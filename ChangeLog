@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Mon Feb 11 10:39:44 PST 2013
+OnboardFilterTds
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-08-07, operation: add
 Package: OnboardFilterTds
